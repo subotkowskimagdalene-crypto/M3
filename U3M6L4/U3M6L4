@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5 Semantic Elements</title>
+		<link rel="stylesheet" href="U3M6L4.css">
+	</head>
+	
+	<body>
+		j;alskdjf;ljaskdf
+		<figure>
+			<code>var test = 5;</code>
+		</figure>
+		<figcaption>This is my caption</figcaption>
+		<time datetime="2009-11-25">November 25th 2009 12pm</time>
+	</body>
+</html>
