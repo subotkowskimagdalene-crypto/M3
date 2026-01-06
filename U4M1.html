@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS Fix</title>
+    <style>
+        /* Use CSS comments inside style tags */
+        h2 {
+            color: green; 
+        }
+    </style>
+    <!-- Note: mainCSS.css will override the green style above if it also contains h1 rules -->
+    <link rel="stylesheet" href="mainCSS.css">
+</head>
+<body>
+    <!-- This will stay RED because inline styles have the highest priority -->
+    <h1 style="color:red">Hello</h1>
+
+    <!-- These will be GREEN (unless overridden by mainCSS.css) -->
+    <h2>World</h2>
+    <h1>Welcome</h1>
+</body>
+</html>
