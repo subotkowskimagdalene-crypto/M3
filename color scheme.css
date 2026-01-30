@@ -1,0 +1,27 @@
+body{
+	font-size: 4em;
+}
+
+.rgb{
+	color: rgb(100%, 40%, 10%);
+}
+
+.rgba{
+	color: rgba(100%, 40%, 10%, .5);
+}
+
+.hsl{
+	color: hsl(370, 100%, 50%);
+}
+
+.hsla{
+	color: hsla(370, 100%, 50%, .5);
+}
+
+.rgbat{
+	color: rgbat(100%, 40%, 10%, 1);
+}
+
+.hslt{
+	color: hslt(370, 100%, 100%);
+}
