@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset ="utf-8">
+		<title>CSS Selectors</title>
+		
+		<style>
+			section h1	{
+				color: red;
+			}
+			h1+p {
+			text-decoration: underline;
+		
+			}
+			section>p{
+				color: blue;
+			}
+			
+			h2~p{
+			color: orange;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<section>
+			<h1> This is my H1</h1>
+			<p> This is my section</p>
+				<div>
+				<p> This is p in a div </p>
+				</div>
+			<p> This is my second p</p>
+		</section>
+		<section>
+			<h1> this is my H1 </h1>
+			<p> This is my section </p>
+			<p>This is my second p</p>
+			<h2> This is my H2 </h2>
+			<p> P following h2 </p>
+			<p> another p following <h/2>
+
+		</section>
+	</body>
+</html>
