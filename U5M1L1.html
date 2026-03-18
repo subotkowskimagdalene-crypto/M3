@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Relative vs Absolute Flower Images</title>
+
+		<style>
+		body{
+			font-family: Arial, sans-serif;
+		}
+
+		/* Section styling */
+		.section{
+			margin:40px;
+		}
+
+		/* Image styling */
+		img{
+			width:120px;
+			height:120px;
+			object-fit:cover;
+			margin:10px;
+			border-radius:8px;
+		}
+
+		/* Relative images */
+		.relative-container img{
+			position:relative;
+		}
+
+		/* Absolute container */
+		.absolute-container{
+			position:relative;
+			height:600px;
+			border:2px dashed #aaa;
+		}
+
+		/* Absolute images */
+		.absolute-container img{
+			position:absolute;
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<h1>Flower Images Example</h1>
+
+	<!-- RELATIVE IMAGES -->
+	<div class="section">
+	<h2>10 Relative Flower Images</h2>
+
+		<div class="relative-container">
+		<img src="purple spring flower.png" style="top:5px; left:5px;">
+		<img src="spring tulips.png" style="top:10px; left:10px;">
+		<img src="pinkFlower.jpg" style="top:15px; left:15px;">
+		<img src="fucsa.png" style="top:20px; left:20px;">
+		<img src="White flower.png" style="top:25px; left:25px;">
+		<img src="red roses.png" style="top:30px; left:30px;">
+		<img src="purple flower.png" style="top:35px; left:35px;">
+		<img src="blue flower.png" style="top:40px; left:40px;">
+		<img src="light blue flowers.png" style="top:45px; left:45px;">
+		<img src="tulips.png" style="top:50px; left:50px;">
+		</div>
+		</div>
+
+		<!-- ABSOLUTE IMAGES -->
+		<div class="section">
+		<h2>10 Absolute Flower Images</h2>
+
+		<div class="absolute-container">
+		<img src="pink and purple flower.png" style="top:0; left:0;">
+		<img src="light pink flower.png" style="top:0; left:150px;">
+		<img src="pink heart flower.png" style="top:0; left:300px;">
+		<img src="bluebell flower.png" style="top:150px; left:0;">
+		<img src="hawaiian flower.png" style="top:150px; left:150px;">
+		<img src="midnight flower.png" style="top:150px; left:300px;">
+		<img src="golden rose.png" style="top:300px; left:0;">
+		<img src="spring flower.png" style="top:300px; left:150px;">
+		<img src="white and purple flower.png" style="top:300px; left:300px;">
+		<img src="snowwhite flower.png" style="top:450px; left:150px;">
+		</div>
+
+		</div>
+
+	</body>
+</html>
