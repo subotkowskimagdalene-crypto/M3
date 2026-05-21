@@ -1,0 +1,76 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    color: lime;
+    padding: 14px 16px;
+    font-family: "Comic Sans MS", cursive;
+	font-size: 20px;
+	background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Page Colors */
+.knoebels { background-color: #9CAF88; }
+.hershey { background-color: #D2B48C; }
+.capemay { background-color: #4F97A3; }
+.gettysburg { background-color: #F5DEB3; }
+.lightpink { background-color: lightpink; }
+
+.container {
+    padding: 20px;
+}
+
+img {
+    max-width: 400px;
+    display: block;
+    margin-bottom: 20px;
+}
