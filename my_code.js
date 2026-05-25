@@ -1,9 +1,8 @@
 $(document).ready(function(){
 
-$("p").hide();
-$("h1").click(function() {
+$("#testbutton").click(function() {
 
-   $(this).next().slideToggle(300);
+   $("p:even").css("background-color","red");
 });
 
 });
