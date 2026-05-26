@@ -1,36 +1,47 @@
 $(document).ready(function(){
 //anonymous function
-   $("div").click(function(){
-      $(this).css("color","purple");    
+   $("h1,h2").click(function(){
+      $(this).css("color","yellow");    
    
    });
-   $("div").mousedown(function(){
-      $(this).css("background-color","blue");    
+   $("h1,h2").mouseover(function(){
+      $(this).css("color","black");    
+   
+   });
+   
+   $("h1").mousedown(function(){
+      $(this).css("background-color","yellow");    
    
    });
 
-   $("div").mouseup(function(){
+   $("h2").mousedown(function(){
+      $(this).css("background-color","blue");    
+   
+   });
+   
+   $("h1").mouseup(function(){
+      $(this).css("background-color","transparent");    
+   
+   });
+   
+   $("h2").mouseup(function(){
       $(this).css("background-color","transparent");    
    
    });
 
- $("div").mouseenter(function(){
-      $(this).css("color","orange");    
-   
-   });
+ 
 
-   $("div").mouseleave(function(){
-      $(this).css("color","pink");
+   $("h1,h2").mouseleave(function(){
+      $(this).css("color","green");
           
    
    });
 
- $("#stop").click(function(){   
-      $("*").unbind("mouseleave");    
-   
+   $("h3").click(function(){
+	  $("h2").unbind("mouseup");
+	  $("h2").unbind("mousedown");
+          
+  
    });
-
-
-
 
 });
